@@ -1,0 +1,11 @@
+﻿Тип ошибки,Пример,Описание,Решение
+ValueError,int('abc'),Нельзя преобразовать 'abc' в число,Используйте проверку try/except
+TypeError,'2' + 2,Нельзя сложить строку и число,Приводите к одному типу: int('2') + 2
+IndexError,lst[10] (длина 5),Индекс вне диапазона,Проверяйте: if index < len(lst)
+KeyError,dct['missing'],Ключ отсутствует,"Используйте dct.get('key', default)"
+ZeroDivisionError,1 / 0,Деление на ноль,Проверяйте делитель перед делением
+FileNotFoundError,open('nonexist.txt'),Файл не найден,Проверяйте os.path.exists()
+ImportError,import fake_module,Модуль не найден,Установите модуль через pip
+NameError,print(undefined_var),Переменная не определена,Объявите переменную перед использованием
+AttributeError,obj.nonexistent(),Метод не существует,Проверьте dir(obj) для доступных методов
+SyntaxError,if x = 5:,Некорректный синтаксис,Исправьте синтаксис (if x == 5:)
