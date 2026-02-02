@@ -1,0 +1,4 @@
+OS info is 
+uname_result(system='Linux', node='max-HP-Laptop-14s-dq2xxx', release='5.15.0-76-generic', version='#83-Ubuntu SMP Thu Jun 15 19:16:32 UTC 2023', machine='x86_64')
+
+Python version is 3.10.6 (main, May 29 2023, 11:10:38) [GCC 11.3.0] ('64bit', 'ELF')
